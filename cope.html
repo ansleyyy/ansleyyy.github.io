@@ -46,17 +46,42 @@ line-height: 1.;
 /* MV Boli, Ink Free, Gabriola, segoe print ,  ; */
 }
 
+.background {
+    background-color:rgb(194, 220, 194)
+}
+
+body {
+    background-color:rgb(194, 220, 194)
+}
+
 a:hover {
     color: #857056;
 }
 
 #mynavbar{
-            background-color: rgb(194, 220, 194);
+            background-color: beige;
 }
 
-.coding {
-    margin-left:30% ;
-    margin-right:30% ;
+.coping {
+    padding-left:10% ;
+    padding-right:10% ;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 50%;
+    padding-bottom: 56.25%; /*16:9*/
+    height: 0;
+    display: block;
+    text-align: center
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: start;
+    left: 10%;
+    width: 80%;
+    height: 80%;
 }
 
     </style>
@@ -64,47 +89,21 @@ a:hover {
 </head>
 <body>
      <!--navBar-->
-     <!-- <nav class="navbar navbar-expand-lg navbar-light" id="mynavbar">
+         <nav class="navbar navbar-expand-lg navbar-light" id="mynavbar">
         <div class="container-fluid">
-        <a class="navbar-brand" href="index.html" style="padding-left:20px; padding-right:950px">
-            <img src="treeicon.jpg" width="50" height="50" alt="">
-        </a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            
-            <ul class="navbar-nav mr-auto">
-
-                <li class="nav-item active">
-                    <a class="nav-link" style="color:white" href="#">Cope</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" style="color:white" href="#">Helpline</a>
-                </li>
-
-            </ul>
-
-        </div>
-    </div>
-    </nav> -->
-
-    <nav class="navbar navbar-expand-lg navbar-light" id="mynavbar">
-        <div class="container-fluid">
-          <a>  <img src="treeicon.jpg" width="50" height="50" alt="">
-        </a>
+            <a class="navbar-brand" href="#index.html" style="color:#344e3b; font-family: Ink free; font-weight: bold;">
+                <img src="treeicon.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top"  href="index.html">
+                Eating Disorder
+              </a>
+        
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <li class="nav-item">
-                    <a class="nav-link" style="color:#344e3b; font-family: Ink free; font-weight: bold;" href="index.html">eating disorder</a>
-                  </li>
+            
                 </li>
                 </ul>
 
@@ -121,32 +120,41 @@ a:hover {
           </div>
         </div>
       </nav>
-<div class="coping">
+<div class="coping" style="background-color:rgb(194, 220, 194);">
+    <br>
     <h1>About Coping</h1>
-</div>
 <hr>
-<div>
 <h3>Content</h3>
 <a href="#waysToCope">Ways to cope</a>
 <br>
 <a href="#waysToTreat">Ways to Treat Eating Disorder</a>
 <br>
 <br>
-<h2 id="waysToCope"> Ways to cope</h2>
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets7.lottiefiles.com/packages/lf20_cdu97cbh.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" hover loop ></lottie-player>
-<ul>
-    <li>learn about healthy eating </li>
-    <li>start being active</li>
-    <li>Get a journal where you can write your feelings throughout the day</li>
-    <li>Change the subject when other people talk about food, weight, or body size and shape </li>
-    <li>Go to a movie with family or friends after meal time</li>
-    <li>Volunteer at an organization you feel passionate about</li>
-    <li> Plan enjoyable activities with friends or family </li>
-</ul>
-<br>
-<h2 id="waysToTreat"> ways to treat eating disorder </h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n9o_ZtUlsgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="background coping">
+    <h2 id="waysToCope" class="mb-3"> Ways to cope</h2>
+        <div class="row p-4 border border-success  rounded-1" style="background-color:beige;">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_cdu97cbh.json" class="col-12 col-sm-6"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" hover loop ></lottie-player>
+            <ul class="col-12 col-sm-6 m-4 p-2">
+              
+                <li>learn about healthy eating </li>
+                <li>start being active</li>
+                <li>Get a journal where you can write your feelings throughout the day</li>
+                <li>Change the subject when other people talk about food, weight, or body size and shape </li>
+                <li>Go to a movie with family or friends after meal time</li>
+                <li>Volunteer at an organization you feel passionate about</li>
+                <li> Plan enjoyable activities with friends or family </li>
+            </ul>
+        </div>
+    <br>
+    <h2 id="waysToTreat" class="m-4" > Ways to treat eating disorder </h2>
+
+    <div class="videoWrapper">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/n9o_ZtUlsgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
 <br>
 </div>
 
