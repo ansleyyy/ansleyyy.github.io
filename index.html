@@ -4,9 +4,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homepage</title>
+
+    <style>
+        body{
+            background-image: url("forest.jpg"), url(greenbg.jpg);
+            background-position: top, bottom;
+            background-size: 100%;
+            background-repeat: no-repeat; 
+        }
+        #mynavbar{
+            background-color: rgb(194, 220, 194);
+
+        }
+        div.card-group{
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+    </style>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
 </head>
+
 <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light" id="mynavbar">
+
+        <a class="navbar-brand" href="http://127.0.0.1:3002/index.html">
+            <!--Can put image too-->
+            <img src="treeicon.jpg" width="50" height="50" alt="">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item active">
+                    <a class="nav-link" style="color:white" href="#">Cope</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" style="color:white" href="#">Helpline</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <br><br>
+
+
+    <div class="frontwords">
+        <h1 style="color:rgb(227, 212, 193); padding-top:200px; font-size: 80px; font-family: Snell Roundhand, cursive;">Eating disorders</h1>
+        <h2 style="color:rgb(227, 212, 193); font-size: 30px; font-family: Snell Roundhand, cursive;">"Eating disorders are serious mental illnesses, NOT a lifestyle choice."</h2>
+    </div>
     
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <div>
+        <h2 style="text-decoration: underline; color:red">Types of Eating Disorders</h2>
+    </div>
+
+    <br><br><br>
+
+    <div class="card-group">
+        <div class="card">
+            <img class="card-img-top" src="anorexia.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Anorexia Nervosa</h5>
+                <p class="card-text">People generally view themselves as overweight, even if they're dangerously underweight. They tend to constantly monitor their weight, avoid eating certain types of foods, and severely restrict their calorie intake.</p>
+                </div>
+        </div>
+        
+        <div class="card">
+            <img class="card-img-top" src="bulimia.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Bulimia Nervosa</h5>
+                <p class="card-text">Patients of Bulimia Nervosa experience a viscious cycle of binging and purging.  During a binge, the person usually feels thay they cannot stop eating or control how much they are eating. Then they attempt to purge through methods like force vomitting, fasting and excessive exercise to compensate for the calories consumed and relieve gut discomfort.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card-img-top" src="binge.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Binge Eating</h5>
+                <p class="card-text">They typically eat unusually large amounts of food in relatively short periods of time and feel a lack of control during binges. Additionally, they do not restrict calories or use purging behaviors to compensate for their binges</p>
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
+
 </html>
